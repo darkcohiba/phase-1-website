@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Current Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+      <div id="topBar"> 
+        <form>
+            <label for="longitude"><strong>Please enter a valid longitude:</strong></label>
+            <input type="numbers" id="longitude" name="longitude" value="-105.000139"><br>
+            <label for="latitude"><strong>Please enter a valid latitude:</strong></label>
+            <input type="number" id="latitude" name="latitude" value="39.753232"><br>
+            <input type="button" id="newInput" value="submit";>
+        </form>
+      </div>
+    <h1 id="title"></h1>
+    <!-- <div id ='coverImage'>
+        <img src="https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=800&h=300" alt="Weather">
+    </div> -->
+    <div id="cards">
+        <h3>Weather Data</h3>
+        <div id="tempCard" class="smallBox">
+            <p id="date"></p>
+            <p id="farenheit"></p>
+            <form>
+                <input type="button" id="temperatureBTN" value="Temperature";>
+                <input type="button" id="feelsLikeBTN" value="Feels Like";>
+            </form>
+        </div>
+        <div id="sunCard" class="smallBox">
+            <p id="sun"></p>
+            <form>
+                <input type="button" id="sunriseBTN" value="Sunrise";>
+                <input type="button" id="sunsetBTN" value="Sunset";>
+            </form>
+        </div>
+        <div id="alertsCard" class="bigBox">
+            <h4><strong>Today's alerts for your area!</strong></h4>
+            <p id="alerts"></p>
+        </div>
+    </div>
+  </body>
+</html>

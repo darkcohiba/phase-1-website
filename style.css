@@ -1,0 +1,155 @@
+*{}
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+#topBar{
+    background-color: aquamarine;
+    margin: 10px;
+    width: 400px;
+}
+
+#newInput{
+    height: 40px;
+    width: 140px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+#newInput:hover{
+    box-shadow: inset 140px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: #000;
+}
+
+#coverImage{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+#title{
+    background-color: bisque;
+    width: 780px;
+}
+
+
+#cards{
+    text-align: center;
+    border: solid;
+    width: 780px;
+    background-color: white;
+}
+
+#cards:hover{
+    background-color: yellow;
+    border: dotted;
+    border-color: greenyellow;
+}
+
+.smallBox{
+    display: inline-block;
+}
+
+#tempCard{
+    background-color: beige;
+    width: 350px;
+    border: solid;
+    margin: 10px;
+}
+
+#temperatureBTN{
+    height: 25px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 47, 255);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #1af906;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+#temperatureBTN:hover{
+    box-shadow: inset 100px 0 0 0 #1af906;
+    cursor: pointer;
+    color: #000;
+}
+
+#feelsLikeBTN{
+    height: 25px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 47, 255);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #1af906;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+#feelsLikeBTN:hover{
+    box-shadow: inset 100px 0 0 0 #1af906;
+    cursor: pointer;
+    color: #000;
+}
+
+#sunCard{
+    background-color: bisque;
+    width: 350px;
+    border: solid;
+    margin: 10px;
+}
+
+#sunriseBTN{
+    height: 25px;
+    width: 100px;
+    border: none;
+    color: black;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0 #000;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+#sunriseBTN:hover{
+    color: #000;
+    cursor: pointer;
+    box-shadow: inset 100px 0 0 0 #edfd04;
+}
+
+#sunsetBTN{
+    height: 25px;
+    width: 100px;
+    border: none;
+    color: black;
+    border-radius: 2px;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: inset 0 0 0 0 #edfd04;
+}
+
+#sunsetBTN:hover{
+    color: #fff;
+    cursor: pointer;
+    box-shadow: inset 100px 0 0 0 #000;
+}
+
+#alertsCard{
+    background-color: tan;
+    width: 350px;
+    border: solid;
+    margin: 10px;
+}
+
